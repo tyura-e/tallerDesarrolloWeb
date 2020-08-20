@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+
+body {
+    margin: 0;
+
+}
+
+
+.navbar {
+    background-color: rgb(94, 17, 218);
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+
+    justify-content: flex-end;
+}
+
+.menu-link {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+}
+
+.menu-link:hover {
+    color: white;
+}
+
+
+.contenedor-relativo {
+    position: relative;
+    background-color: rgb(187, 209, 255);
+    padding: 1em;
+
+}
+
+.imagen {
+    width: 80%;
+    padding: 1em;
+    display: block;
+    margin: auto;
+}
+
+.texto-img {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    width: 50%;
+    color: whitesmoke;
+    background-color: rgba(14, 13, 13, 0.554);
+}
+
+.main-footer {
+    padding: 3em;
+
+    background-color: rgb(94, 17, 218);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
